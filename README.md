@@ -1,2 +1,8 @@
 # gif_spider
-a spider to download gif from ali213
+功能简单的Python爬虫，用于下载某网站上的搞笑gif动图  
+使用多进程与消息队列，一个进程用于获取gif地址存入进程池，另外利用进程池从队列中获取地址并下载到本地
+
+## 环境要求
+* Python 3.5.1
+* bs4 模块
+* requests 模块
